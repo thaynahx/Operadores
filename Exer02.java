@@ -1,3 +1,6 @@
+/*Faça um Programa que peça um número e então mostre a
+mensagem O número informado foi [número]. */
+
 package com.thaynah.coursejava.aula13;
 
 import java.util.Scanner;
@@ -8,10 +11,10 @@ public class Exer02 {
 
 		Scanner ler = new Scanner(System.in);
 		
-		System.out.println("Informe um n�mero: ");
+		System.out.println("Informe um número: ");
 		int num = ler.nextInt();
 		
-		System.out.println("O n�mero informado foi: " + num + ".");
+		System.out.println("O número informado foi: " + num + ".");
 		
 	}
 
