@@ -1,3 +1,5 @@
+/* FaÃ§a um Programa que peÃ§a as 4 notas bimestrais e mostre a mÃ©dia. */
+
 package com.thaynah.coursejava.aula13;
 
 import java.util.Scanner;
@@ -8,13 +10,13 @@ public class Exer04 {
 		
 		Scanner ler =new Scanner(System.in);
 		
-		System.out.println("Digite a 1ª nota: :");
+		System.out.println("Digite a 1Âª nota: :");
 		double nota1 = ler.nextDouble();
-		System.out.println("Digite a 2ª nota: :");
+		System.out.println("Digite a 2Âª nota: :");
 		double nota2 = ler.nextDouble();
-		System.out.println("Digite a 3ª nota: :");
+		System.out.println("Digite a 3Âª nota: :");
 		double nota3 = ler.nextDouble();
-		System.out.println("Digite a 4ª nota: :");
+		System.out.println("Digite a 4Âª nota: :");
 		double nota4 = ler.nextDouble();
 		
 		System.out.println("Nota 1: " + nota1);
@@ -22,7 +24,7 @@ public class Exer04 {
 		System.out.println("Nota 3: " + nota3);
 		System.out.println("Nota 4: " + nota4);
 		double media = ((nota1 + nota2 + nota3 + nota4)/4);
-		System.out.println("Média bimestral: " + media);
+		System.out.println("MÃ©dia bimestral: " + media);
 		
 		
 		
