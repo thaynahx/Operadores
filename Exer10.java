@@ -1,3 +1,6 @@
+/* .FaÃ§a um Programa que peÃ§a a temperatura em graus Celsius,
+transforme e mostre em graus Farenheit. f = (c * 1.8) + 32 */
+
 package com.thaynah.coursejava.aula13;
 
 import java.util.Scanner;
@@ -13,7 +16,7 @@ public class Exer10 {
 		
 		double f = (c * 1.8) + 32;
 		
-		System.out.println("A temperatura graus Celcius " + c + "ºC \né igual a temperatura Farenheit " + f + "ºF. ");                                                           
+		System.out.println("A temperatura graus Celcius " + c + "ÂºC \nÃ© igual a temperatura Farenheit " + f + "ÂºF. ");                                                           
 		
 		
 	}
