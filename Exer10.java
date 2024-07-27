@@ -1,5 +1,5 @@
 /* .Faça um Programa que peça a temperatura em graus Celsius,
-transforme e mostre em graus Farenheit. f = (c * 1.8) + 32 */
+transforme e mostre em graus Farenheit. o F = (c * 1.8) + 32 */
 
 package com.thaynah.coursejava.aula13;
 
