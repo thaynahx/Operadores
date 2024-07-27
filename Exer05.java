@@ -1,3 +1,5 @@
+/* Faça um Programa que converta metros para centímetros. */
+
 package com.thaynah.coursejava.aula13;
 
 import java.util.Scanner;
@@ -13,7 +15,7 @@ public class Exer05 {
 		
 		// 1cm = 1 metro.
 		double cm = metros * 100;
-		System.out.println(metros + "m � igual a " + cm + "cm.");
+		System.out.println(metros + "m é igual a " + cm + "cm.");
 		
 		//tive dificuldade
 		 
