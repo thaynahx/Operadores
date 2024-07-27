@@ -1,3 +1,11 @@
+/* .Tendo como dados de entrada a altura e o sexo de uma pessoa,
+construa um algoritmo que calcule seu peso ideal, utilizando as
+seguintes f√≥rmulas:
+ . Para homens: (72.7*h) - 58
+a. Para mulheres: (62.1*h) - 44.7 (h = altura)
+b. Pe√ßa o peso da pessoa e informe se ela est√° dentro, acima ou
+abaixo do peso. */
+
 package com.thaynah.coursejava.aula13;
 
 import java.util.Scanner;
@@ -22,25 +30,25 @@ public class Exer13 {
 		//peso ideal masculino
 		if (sexo.equalsIgnoreCase("M")||sexo.equalsIgnoreCase("m")) {
 			pesoIdeal = (72.7*altura) - 58;
-			System.out.println("Peso ideal para a sua altura È: " + pesoIdeal);
+			System.out.println("Peso ideal para a sua altura √©: " + pesoIdeal);
 		}else if (peso >= pesoIdeal){
-			System.out.println("Est· acima do peso ideal! ");
+			System.out.println("Est√° acima do peso ideal! ");
 		}else if (peso == pesoIdeal) {
-			System.out.println("Est· dentro do peso ideal!");
+			System.out.println("Est√° dentro do peso ideal!");
 		}else if (peso <= pesoIdeal) {
-			System.out.println("Est· abaixo do peso ideal!");
+			System.out.println("Est√° abaixo do peso ideal!");
 		}
 		
 		//peso ideal Feminino
 		if (sexo.equalsIgnoreCase("F")||sexo.equalsIgnoreCase("f")) {
 			pesoIdeal = (62.1*altura) - 44.7;
-			System.out.println("Peso ideal para a sua altura È: " + pesoIdeal);
+			System.out.println("Peso ideal para a sua altura √©: " + pesoIdeal);
 		}else if (peso >= pesoIdeal) {
-			System.out.println("Est· acima do peso ideal! ");
+			System.out.println("Est√° acima do peso ideal! ");
 		}else if (peso == pesoIdeal) {
-			System.out.println("Est· dentro do peso ideal!");
+			System.out.println("Est√° dentro do peso ideal!");
 		}else if (peso <= pesoIdeal) {
-			System.out.println("Est· abaixo do peso ideal!");
+			System.out.println("Est√° abaixo do peso ideal!");
 		}
 		
 		
