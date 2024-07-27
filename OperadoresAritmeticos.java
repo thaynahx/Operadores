@@ -13,28 +13,28 @@ public class OperadoresAritmeticos {
 		System.out.println("Sub: " + resultado);
 		 
 		resultado = resultado * 2;
-		System.out.println("Multi: "+resultado);
+		System.out.println("MultiplicaÃ§Ã£o: "+resultado);
 		
 		resultado = resultado / 2;
 		System.out.println("Div: "+ resultado);
 		
 		resultado = resultado + 8;
-		System.out.println("Soma do último resultado: " + resultado);
+		System.out.println("Soma do Ãºltimo resultado: " + resultado);
 		
 		resultado = resultado % 7;
-		System.out.println("Resto da divisão: " + resultado + "\n");
+		System.out.println("Resto da divisÃ£o: " + resultado + "\n");
 		
 	//-------------------
-		// concatenação com o operador "+"
+		// concatenaÃ§Ã£o com o operador "+"
 		
-		String primeiraString = "Esta é ";
+		String primeiraString = "Esta Ã© ";
 		String segundaString = "uma String concatenada \n";
 		String terceiraString = primeiraString + segundaString;
 		System.out.println(terceiraString);
 		
 	//-------------------	
-		//continuação com a variavel de resultado
-		//resultado a ultima opeção foi 3
+		//continuaÃ§Ã£o com a variavel de resultado
+		//resultado a ultima opeÃ§Ã£o foi 3
 		//4
 		resultado = resultado +1;
 		System.out.println(resultado);
@@ -63,17 +63,6 @@ public class OperadoresAritmeticos {
 		
 		System.out.println(resultado--);
 		System.out.println(--resultado);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 	}
 }
